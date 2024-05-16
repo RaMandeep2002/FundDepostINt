@@ -193,10 +193,10 @@ function App() {
   return (
     <div className="App">
       <div className="min-h-screen flex items-center justify-center bg-[#3c3c3c]">
-        <div className="bg-[#212121] h-screen p-6  shadow-md w-[500px]">
+        <div className="bg-[#212121] h-screen p-8  shadow-md w-[500px]">
           <div className="text-center mb-8">
-            {/* <img src={metamsklogo} alt="MetaMask Logo" className="h-12 mx-auto mb-4" />
-            <h1 className='text-3xl tracking-widest text-white'>MetaMask Wallet</h1> */}
+            <img src={metamsklogo} alt="MetaMask Logo" className="h-[60px] mx-auto mb-4" />
+            <h1 className='text-3xl tracking-widest text-white'> Wallet</h1>
             <button
               onClick={connectWallet}
               type="button"
