@@ -197,7 +197,7 @@ function App() {
           <div className="text-center mb-8">
             <div className='p-4'>
               {/* <img src={metamsklogo} alt="MetaMask Logo" className="h-[60px] mx-auto mb-4" /> */}
-              <h1 className='text-3xl tracking-widest text-white'> Wallet</h1>
+              <h1 className='text-3xl tracking-[10px] text-white'> WALLET</h1>
             </div>
 
             <button
